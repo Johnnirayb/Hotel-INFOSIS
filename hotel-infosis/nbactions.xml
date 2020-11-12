@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-jar</actionName>
+            <displayName>jar</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>install</goal>
+                <goal>-Pjar</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-war</actionName>
+            <displayName>war</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>install</goal>
+                <goal>-Pwar</goal>
+            </goals>
+        </action>
+    </actions>
